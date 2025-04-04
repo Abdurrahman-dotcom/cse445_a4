@@ -1,44 +1,41 @@
 <Hotels>
 
   <Hotel>
-    <Name>Westin</Name>
+    <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    </Address NearestAirport="Sky Harbor">
+    </Address>
     <Rating>4.2</Rating>
   </Hotel>
 
   <Hotel>
     <Name>Marriott Downtown</Name>
     <Phone>888-555-1212</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>100</Number>
       <Street>Main Street</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85001</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
-    <!-- No _Rating element -->
   </Hotel>
 
   <Hotel>
     <Name>Hyatt Regency</Name>
     <Phone>602-252-1234</Phone>
     <Phone>602-253-7890</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
     </Address>
     <Rating>4.5</Rating>
   </Hotel>
@@ -46,13 +43,12 @@
   <Hotel>
     <Name>Hilton Scottsdale</Name>
     <Phone>480-945-7755</Phone>
-    <Address>
+    <Address NearestAirport="Scottsdale Airport">
       <Number>6333</Number>
       <Street>N Scottsdale Rd</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85250</Zip>
-      <NearestAirport>Scottsdale Airport</NearestAirport>
     </Address>
     <Rating>4.1</Rating>
   </Hotel>
@@ -60,27 +56,25 @@
   <Hotel>
     <Name>La Quinta Phoenix</Name>
     <Phone>602-555-0001</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>2727</Number>
       <Street>N Central Ave</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
-      <NearestAirport>Phoenix Airport</NearestAirport>
     </Address>
-    <!-- No _Rating element -->
+    <!-- No <Rating> -->
   </Hotel>
 
   <Hotel>
     <Name>Camelback Inn</Name>
     <Phone>480-948-1700</Phone>
-    <Address>
+    <Address NearestAirport="Scottsdale Airport">
       <Number>5402</Number>
       <Street>E Lincoln Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85253</Zip>
-      <NearestAirport>Scottsdale Airport</NearestAirport>
     </Address>
     <Rating>4.7</Rating>
   </Hotel>
@@ -89,13 +83,12 @@
     <Name>Residence Inn Downtown</Name>
     <Phone>602-555-7000</Phone>
     <Phone>602-555-7001</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>132</Number>
       <Street>E Van Buren St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
-      <NearestAirport>Phoenix Airport</NearestAirport>
     </Address>
     <Rating>4.0</Rating>
   </Hotel>
@@ -103,43 +96,18 @@
   <Hotel>
     <Name>Aloft Tempe</Name>
     <Phone>480-795-6000</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>951</Number>
       <Street>E Playa Del Norte Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
-    <!-- No _Rating element -->
+    <!-- No <Rating> -->
   </Hotel>
 
   <Hotel>
     <Name>Four Seasons Scottsdale</Name>
     <Phone>480-515-5700</Phone>
-    <Address>
-      <Number>10600</Number>
-      <Street>E Crescent Moon Dr</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85262</Zip>
-      <NearestAirport>Scottsdale Airport</NearestAirport>
-    </Address>
-    <Rating>4.8</Rating>
-  </Hotel>
-
-  <Hotel>
-    <Name>Fairmont Scottsdale Princess</Name>
-    <Phone>480-585-4848</Phone>
-    <Address>
-      <Number>7575</Number>
-      <Street>E Princess Dr</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85255</Zip>
-      <NearestAirport>Scottsdale Airport</NearestAirport>
-    </Address>
-    <Rating>4.6</Rating>
-  </Hotel>
-
-</Hotels>
+    <Address NearestAirport="Scottsdale Airport">
+      <Number
