@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://abdurrahman-dotcom.github.io/cse445_a4/Hotels.xsd">
 
-  <Hotel>
+  <Hotel Rating=4.2>
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -14,7 +14,6 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Rating>4.2</Rating>
   </Hotel>
 
   <Hotel>
@@ -30,7 +29,7 @@
     <!-- No Rating element here (optional) -->
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating=4.5>
     <Name>Hyatt Regency</Name>
     <Phone>602-252-1234</Phone>
     <Phone>602-253-7890</Phone>
@@ -41,10 +40,10 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <Rating>4.5</Rating>
+    
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating=4.1>
     <Name>Hilton Scottsdale</Name>
     <Phone>480-945-7755</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -54,7 +53,7 @@
       <State>AZ</State>
       <Zip>85250</Zip>
     </Address>
-    <Rating>4.1</Rating>
+    
   </Hotel>
 
   <Hotel>
@@ -70,7 +69,7 @@
     <!-- No Rating element -->
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating=4.7>
     <Name>Camelback Inn</Name>
     <Phone>480-948-1700</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -80,10 +79,10 @@
       <State>AZ</State>
       <Zip>85253</Zip>
     </Address>
-    <Rating>4.7</Rating>
+    
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating=4.0>
     <Name>Residence Inn Downtown</Name>
     <Phone>602-555-7000</Phone>
     <Phone>602-555-7001</Phone>
@@ -94,7 +93,7 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <Rating>4.0</Rating>
+    
   </Hotel>
 
   <Hotel>
@@ -110,7 +109,7 @@
     <!-- No Rating element -->
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating=4.8>
     <Name>Four Seasons Scottsdale</Name>
     <Phone>480-515-5700</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -120,10 +119,9 @@
       <State>AZ</State>
       <Zip>85262</Zip>
     </Address>
-    <Rating>4.8</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating=4.6>
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -133,7 +131,6 @@
       <State>AZ</State>
       <Zip>85255</Zip>
     </Address>
-    <Rating>4.6</Rating>
   </Hotel>
 
 </Hotels>
