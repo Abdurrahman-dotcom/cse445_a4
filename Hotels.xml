@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://abdurrahman-dotcom.github.io/cse445_a4/Hotels.xsd">
 
-  <Hotel Rating=4.2>
+  <Hotel Rating="4.2">
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -29,7 +29,7 @@
     <!-- No Rating element here (optional) -->
   </Hotel>
 
-  <Hotel Rating=4.5>
+  <Hotel Rating="4.5">
     <Name>Hyatt Regency</Name>
     <Phone>602-252-1234</Phone>
     <Phone>602-253-7890</Phone>
@@ -43,7 +43,7 @@
     
   </Hotel>
 
-  <Hotel Rating=4.1>
+  <Hotel Rating="4.1">
     <Name>Hilton Scottsdale</Name>
     <Phone>480-945-7755</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -69,7 +69,7 @@
     <!-- No Rating element -->
   </Hotel>
 
-  <Hotel Rating=4.7>
+  <Hotel Rating="4.7">
     <Name>Camelback Inn</Name>
     <Phone>480-948-1700</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -82,7 +82,7 @@
     
   </Hotel>
 
-  <Hotel Rating=4.0>
+  <Hotel Rating="4.0">
     <Name>Residence Inn Downtown</Name>
     <Phone>602-555-7000</Phone>
     <Phone>602-555-7001</Phone>
@@ -109,7 +109,7 @@
     <!-- No Rating element -->
   </Hotel>
 
-  <Hotel Rating=4.8>
+  <Hotel Rating="4.8">
     <Name>Four Seasons Scottsdale</Name>
     <Phone>480-515-5700</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -121,7 +121,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating=4.6>
+  <Hotel Rating="4.6">
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
     <Address NearestAirport="Scottsdale Airport">
