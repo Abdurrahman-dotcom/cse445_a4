@@ -26,6 +26,7 @@
                   <xsd:attribute name="NearstAirport" type="xsd:string" use="required" />
                 </xsd:complexType>
               </xsd:element>
+                <xsd:attribute name="Rating" type="xsd:string" use="optional" />   
             </xsd:sequence>
           </xsd:complexType>
         </xsd:element>
