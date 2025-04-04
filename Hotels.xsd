@@ -31,8 +31,7 @@
               </xs:element>
 
               <!-- Rating is optional (0 or 1 occurrences) -->
-              <xs:element name="Rating" type="xs:decimal" minOccurs="0" />
-            </xs:sequence>
+
           </xs:complexType>
         </xs:element>
       </xs:sequence>
