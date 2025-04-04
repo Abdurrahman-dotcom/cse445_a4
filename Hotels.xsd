@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
 
   <!-- Root element: Hotels -->
@@ -11,22 +11,22 @@
           <xsd:complexType>
             <xsd:sequence>
               <!-- Hotel Name is required -->
-              <xsd:element name="Name" type="xs:string" />
+              <xsd:element name="Name" type="xsd:string" />
 
               <!-- One or more Phone elements -->
-              <xsd:element name="Phone" type="xs:string" maxOccurs="unbounded" />
+              <xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded" />
 
               <!-- Address element with required attribute "NearstAirport" -->
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
-                    <xsd:element name="Number" type="xs:integer" />
-                    <xsd:element name="Street" type="xs:string" />
-                    <xsd:element name="City" type="xs:string" />
-                    <xsd:element name="State" type="xs:string" />
-                    <xsd:element name="Zip" type="xs:integer" />
+                    <xsd:element name="Number" type="xsd:integer" />
+                    <xsd:element name="Street" type="xsd:string" />
+                    <xsd:element name="City" type="xsd:string" />
+                    <xsd:element name="State" type="xsd:string" />
+                    <xsd:element name="Zip" type="xsd:integer" />
                   </xsd:sequence>
-                  <xsd:attribute name="NearstAirport" type="xs:string" use="required" />
+                  <xsd:attribute name="NearstAirport" type="xsd:string" use="required" />
                 </xsd:complexType>
               </xsd:element>
             </xsd:sequence>
