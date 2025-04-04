@@ -29,9 +29,6 @@
                   <xs:attribute name="NearstAirport" type="xs:string" use="required" />
                 </xs:complexType>
               </xs:element>
-
-              <!-- Rating is optional (0 or 1 occurrences) -->
-              
             </xs:sequence>
           </xs:complexType>
         </xs:element>
