@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotels
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://abdurrahman-dotcom.github.io/cse445_a4/Hotels.xsd">
+
   <Hotel>
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
@@ -19,14 +20,14 @@
   <Hotel>
     <Name>Marriott Downtown</Name>
     <Phone>888-555-1212</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>100</Number>
       <Street>Main Street</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85001</Zip>
     </Address>
-    <!-- No <Rating> element here (optional) -->
+    <Rating>4.3</Rating>
   </Hotel>
 
   <Hotel>
@@ -59,20 +60,20 @@
   <Hotel>
     <Name>La Quinta Phoenix</Name>
     <Phone>602-555-0001</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>2727</Number>
       <Street>N Central Ave</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <!-- No <Rating> element -->
+    <Rating>4.3</Rating>
   </Hotel>
 
   <Hotel>
     <Name>Camelback Inn</Name>
     <Phone>480-948-1700</Phone>
-    <Address>
+    <Address NearestAirport="Scottsdale Airport">
       <Number>5402</Number>
       <Street>E Lincoln Dr</Street>
       <City>Scottsdale</City>
@@ -86,7 +87,7 @@
     <Name>Residence Inn Downtown</Name>
     <Phone>602-555-7000</Phone>
     <Phone>602-555-7001</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>132</Number>
       <Street>E Van Buren St</Street>
       <City>Phoenix</City>
@@ -106,13 +107,13 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <!-- No <Rating> element -->
+    <Rating>4.5</Rating>
   </Hotel>
 
   <Hotel>
     <Name>Four Seasons Scottsdale</Name>
     <Phone>480-515-5700</Phone>
-    <Address>
+    <Address NearestAirport="Scottsdale Airport">
       <Number>10600</Number>
       <Street>E Crescent Moon Dr</Street>
       <City>Scottsdale</City>
@@ -125,7 +126,7 @@
   <Hotel>
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
-    <Address>
+    <Address NearestAirport="Scottsdale Airport">
       <Number>7575</Number>
       <Street>E Princess Dr</Street>
       <City>Scottsdale</City>
