@@ -1,139 +1,148 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Hotels
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://abdurrahman-dotcom.github.io/cse445_a4/Hotels.xsd">
-
+  
   <Hotel>
-    <Name>Westin Tempe</Name>
+    <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <_NearestAirport>Sky Habor</_NearestAirport>
     </Address>
-    <Rating>4.2</Rating>
+    <_Rating>4.2</_Rating>
   </Hotel>
 
   <Hotel>
     <Name>Marriott Downtown</Name>
     <Phone>888-555-1212</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address>
       <Number>100</Number>
       <Street>Main Street</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85001</Zip>
+      <_NearestAirport>Phoenix Sky Harbor</_NearestAirport>
     </Address>
-    <Rating>4.3</Rating>
+    <!-- No _Rating element -->
   </Hotel>
 
   <Hotel>
     <Name>Hyatt Regency</Name>
     <Phone>602-252-1234</Phone>
     <Phone>602-253-7890</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address>
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
+      <_NearestAirport>Phoenix Sky Harbor</_NearestAirport>
     </Address>
-    <Rating>4.5</Rating>
+    <_Rating>4.5</_Rating>
   </Hotel>
 
   <Hotel>
     <Name>Hilton Scottsdale</Name>
     <Phone>480-945-7755</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address>
       <Number>6333</Number>
       <Street>N Scottsdale Rd</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85250</Zip>
+      <_NearestAirport>Scottsdale Airport</_NearestAirport>
     </Address>
-    <Rating>4.1</Rating>
+    <_Rating>4.1</_Rating>
   </Hotel>
 
   <Hotel>
     <Name>La Quinta Phoenix</Name>
     <Phone>602-555-0001</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address>
       <Number>2727</Number>
       <Street>N Central Ave</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
+      <_NearestAirport>Phoenix Airport</_NearestAirport>
     </Address>
-    <Rating>4.3</Rating>
+    <!-- No _Rating element -->
   </Hotel>
 
   <Hotel>
     <Name>Camelback Inn</Name>
     <Phone>480-948-1700</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address>
       <Number>5402</Number>
       <Street>E Lincoln Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85253</Zip>
+      <_NearestAirport>Scottsdale Airport</_NearestAirport>
     </Address>
-    <Rating>4.7</Rating>
+    <_Rating>4.7</_Rating>
   </Hotel>
 
   <Hotel>
     <Name>Residence Inn Downtown</Name>
     <Phone>602-555-7000</Phone>
     <Phone>602-555-7001</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address>
       <Number>132</Number>
       <Street>E Van Buren St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
+      <_NearestAirport>Phoenix Airport</_NearestAirport>
     </Address>
-    <Rating>4.0</Rating>
+    <_Rating>4.0</_Rating>
   </Hotel>
 
   <Hotel>
     <Name>Aloft Tempe</Name>
     <Phone>480-795-6000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>951</Number>
       <Street>E Playa Del Norte Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <_NearestAirport>Sky Harbor</_NearestAirport>
     </Address>
-    <Rating>4.5</Rating>
+    <!-- No _Rating element -->
   </Hotel>
 
   <Hotel>
     <Name>Four Seasons Scottsdale</Name>
     <Phone>480-515-5700</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address>
       <Number>10600</Number>
       <Street>E Crescent Moon Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85262</Zip>
+      <_NearestAirport>Scottsdale Airport</_NearestAirport>
     </Address>
-    <Rating>4.8</Rating>
+    <_Rating>4.8</_Rating>
   </Hotel>
 
   <Hotel>
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address>
       <Number>7575</Number>
       <Street>E Princess Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85255</Zip>
+      <_NearestAirport>Scottsdale Airport</_NearestAirport>
     </Address>
-    <Rating>4.6</Rating>
+    <_Rating>4.6</_Rating>
   </Hotel>
 
 </Hotels>
