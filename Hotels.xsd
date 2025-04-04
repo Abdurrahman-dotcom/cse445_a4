@@ -6,26 +6,22 @@
   <!-- Root element: Hotels -->
   <xsd:element name="Hotels">
     <xsd:complexType>
-      <xsd:sequence>
+      <xsd:sequence maxOccurs="unbounded">
         <!-- Multiple Hotel elements allowed -->
-        <xsd:element name="Hotel" maxOccurs="unbounded">
+        <xsd:element name="Hotel"  minOccurs="1" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
               <!-- Hotel Name is required -->
-              <xsd:element name="Name" type="xsd:string" />
-
-              <!-- One or more Phone elements -->
-              <xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded" />
-
-              <!-- Address element with required attribute "NearstAirport" -->
-              <xsd:element name="Address">
+              <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+              <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
+              <xsd:element name="Address" minOccurs="1" maxOccurs="unbounded">
                 <xsd:complexType>
                   <xsd:sequence>
-                    <xsd:element name="Number" type="xsd:integer" />
-                    <xsd:element name="Street" type="xsd:string" />
-                    <xsd:element name="City" type="xsd:string" />
-                    <xsd:element name="State" type="xsd:string" />
-                    <xsd:element name="Zip" type="xsd:integer" />
+                    <xsd:element name="Number" type="xsd:integer" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="Zip" type="xsd:integer" minOccurs="1" maxOccurs="1" />
                   </xsd:sequence>
                   <xsd:attribute name="NearstAirport" type="xsd:string" use="required" />
                 </xsd:complexType>
