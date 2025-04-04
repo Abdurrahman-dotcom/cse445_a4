@@ -14,7 +14,6 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <Rating>4.2</Rating>
   </Hotel>
 
   <Hotel>
@@ -41,7 +40,6 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <Rating>4.5</Rating>
   </Hotel>
 
   <Hotel>
@@ -54,7 +52,6 @@
       <State>AZ</State>
       <Zip>85250</Zip>
     </Address>
-    <Rating>4.1</Rating>
   </Hotel>
 
   <Hotel>
@@ -80,7 +77,6 @@
       <State>AZ</State>
       <Zip>85253</Zip>
     </Address>
-    <Rating>4.7</Rating>
   </Hotel>
 
   <Hotel>
@@ -94,7 +90,6 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <Rating>4.0</Rating>
   </Hotel>
 
   <Hotel>
@@ -120,7 +115,6 @@
       <State>AZ</State>
       <Zip>85262</Zip>
     </Address>
-    <Rating>4.8</Rating>
   </Hotel>
 
   <Hotel>
@@ -133,7 +127,6 @@
       <State>AZ</State>
       <Zip>85255</Zip>
     </Address>
-    <Rating>4.6</Rating>
   </Hotel>
 
 </Hotels>
