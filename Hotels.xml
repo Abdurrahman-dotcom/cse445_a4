@@ -53,7 +53,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rank="4.0>
+  <Hotel Rank="4.0">
     <Name>La Quinta Phoenix</Name>
     <Phone>602-555-0001</Phone>
     <Address NearstAirport="Phoenix Sky Harbor">
@@ -90,7 +90,7 @@
     </Address>
   </Hotel>
 
-  <HotelRank="4.4">
+  <Hotel Rank="4.4">
     <Name>Aloft Tempe</Name>
     <Phone>480-795-6000</Phone>
     <Address NearstAirport="Sky Harbor">
