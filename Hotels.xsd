@@ -15,8 +15,6 @@
 
               <!-- One or more Phone elements -->
               <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" />
-
-              <!-- Address is required and has an attribute "NearestAirport" -->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
