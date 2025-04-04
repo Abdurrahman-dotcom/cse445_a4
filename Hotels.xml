@@ -7,7 +7,7 @@
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -19,7 +19,7 @@
   <Hotel>
     <Name>Marriott Downtown</Name>
     <Phone>888-555-1212</Phone>
-    <Address NearstAirport="Phoenix Sky Harbor">
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>100</Number>
       <Street>Main Street</Street>
       <City>Phoenix</City>
@@ -33,7 +33,7 @@
     <Name>Hyatt Regency</Name>
     <Phone>602-252-1234</Phone>
     <Phone>602-253-7890</Phone>
-    <Address NearstAirport="Phoenix Sky Harbor">
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
@@ -45,7 +45,7 @@
   <Hotel>
     <Name>Hilton Scottsdale</Name>
     <Phone>480-945-7755</Phone>
-    <Address NearstAirport="Scottsdale Airport">
+    <Address NearestAirport="Scottsdale Airport">
       <Number>6333</Number>
       <Street>N Scottsdale Rd</Street>
       <City>Scottsdale</City>
@@ -57,7 +57,7 @@
   <Hotel>
     <Name>La Quinta Phoenix</Name>
     <Phone>602-555-0001</Phone>
-    <Address NearstAirport="Phoenix Sky Harbor">
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>2727</Number>
       <Street>N Central Ave</Street>
       <City>Phoenix</City>
@@ -70,7 +70,7 @@
   <Hotel>
     <Name>Camelback Inn</Name>
     <Phone>480-948-1700</Phone>
-    <Address NearstAirport="Scottsdale Airport">
+    <Address NearestAirport="Scottsdale Airport">
       <Number>5402</Number>
       <Street>E Lincoln Dr</Street>
       <City>Scottsdale</City>
@@ -83,7 +83,7 @@
     <Name>Residence Inn Downtown</Name>
     <Phone>602-555-7000</Phone>
     <Phone>602-555-7001</Phone>
-    <Address NearstAirport="Phoenix Sky Harbor">
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>132</Number>
       <Street>E Van Buren St</Street>
       <City>Phoenix</City>
@@ -95,7 +95,7 @@
   <Hotel>
     <Name>Aloft Tempe</Name>
     <Phone>480-795-6000</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>951</Number>
       <Street>E Playa Del Norte Dr</Street>
       <City>Tempe</City>
@@ -108,7 +108,7 @@
   <Hotel>
     <Name>Four Seasons Scottsdale</Name>
     <Phone>480-515-5700</Phone>
-    <Address NearstAirport="Scottsdale Airport">
+    <Address NearestAirport="Scottsdale Airport">
       <Number>10600</Number>
       <Street>E Crescent Moon Dr</Street>
       <City>Scottsdale</City>
@@ -120,7 +120,7 @@
   <Hotel>
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
-    <Address NearstAirport="Scottsdale Airport">
+    <Address NearestAirport="Scottsdale Airport">
       <Number>7575</Number>
       <Street>E Princess Dr</Street>
       <City>Scottsdale</City>
