@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
-
+<!-- 1) The root is <Hotel> instead of <Hotels> -->
+<Hotel>
+  
+  <!-- 2) Duplicate <Name> elements -->
   <Hotel>
-    <!-- Only one <Name> now -->
     <Name>Westin Tempe</Name>
-    <!-- At least one phone -->
-    <Phone>480-968-8885</Phone>
-    <!-- Properly closed <Address>, with optional or required attribute depending on your schema -->
+    <Name>DuplicateName</Name>
+    <!-- 3) Missing <Phone> entirely -->
     <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
@@ -17,17 +17,19 @@
     <Rating>4.2</Rating>
   </Hotel>
 
+  <!-- Another hotel with more brokenness, e.g. unclosed <Address> -->
   <Hotel>
     <Name>Marriott Downtown</Name>
     <Phone>888-555-1212</Phone>
-    <!-- If your XSD truly makes NearestAirport required, keep the attribute here -->
-    <Address NearestAirport="(SomeAirport)">
+    <!-- Suppose your XSD says NearestAirport is required but we skip it or break it -->
+    <Address>
       <Number>100</Number>
-      <Street>Main Street</Street>
+      <Street>Main Street
+      <!-- 4) We do not close <Street> or <Address> properly -->
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85001</Zip>
     </Address>
   </Hotel>
 
-</Hotels>
+</Hotel>
