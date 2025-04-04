@@ -2,21 +2,16 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
 
-  <!-- Root element: Hotels -->
+
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <!-- Multiple Hotel elements allowed -->
+
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <!-- Hotel Name is required -->
               <xs:element name="Name" type="xs:string" />
-
-              <!-- One or more Phone elements -->
               <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" />
-
-              <!-- Address element with required attribute "NearstAirport" -->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -30,8 +25,6 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-
-            <!-- Rating is an optional attribute on the Hotel element -->
             <xs:attribute name="Rating" type="xs:string" use="optional" />
           </xs:complexType>
         </xs:element>
