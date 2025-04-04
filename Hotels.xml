@@ -1,4 +1,7 @@
-<Hotels>
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://abdurrahman-dotcom.github.io/cse445_a4/Hotels.xsd">
 
   <Hotel>
     <Name>Westin Tempe</Name>
@@ -24,6 +27,7 @@
       <State>AZ</State>
       <Zip>85001</Zip>
     </Address>
+    <!-- No Rating element here (optional) -->
   </Hotel>
 
   <Hotel>
@@ -63,7 +67,7 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <!-- No <Rating> -->
+    <!-- No Rating element -->
   </Hotel>
 
   <Hotel>
@@ -103,11 +107,33 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <!-- No <Rating> -->
+    <!-- No Rating element -->
   </Hotel>
 
   <Hotel>
     <Name>Four Seasons Scottsdale</Name>
     <Phone>480-515-5700</Phone>
     <Address NearestAirport="Scottsdale Airport">
-      <Number
+      <Number>10600</Number>
+      <Street>E Crescent Moon Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85262</Zip>
+    </Address>
+    <Rating>4.8</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Fairmont Scottsdale Princess</Name>
+    <Phone>480-585-4848</Phone>
+    <Address NearestAirport="Scottsdale Airport">
+      <Number>7575</Number>
+      <Street>E Princess Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85255</Zip>
+    </Address>
+    <Rating>4.6</Rating>
+  </Hotel>
+
+</Hotels>
